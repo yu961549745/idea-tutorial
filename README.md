@@ -30,8 +30,12 @@ Configure -> Preference -> Build Tools -> Maven -> Importing
 ## JavaDoc
 Configure -> Preference -> Editor -> General -> Show quick documentation on mouse move
 
+感觉体验不是很好, 还是自己 `ctrl+J` 吧
+
 ## Java 自动导入和移除包
 Configure -> Preference -> Editor -> General -> Auto Import
++ 自动导包 Add unambiguous imports on the fly
++ 导包优化 Optimize imports on the fly, 会 `import java.io.*` 不推荐 
 
 ## 自动补全设置
 Configure -> Preference -> Editor -> General -> Code Completion
@@ -49,3 +53,11 @@ View -> Toolbar
 + `ctrl+J` 查看文档
 + `cmd+delete` 删除当前行
 + `cmd+B`/`cmd+鼠标` 前往定义
++ `alt+enter`
+    + 在包重复时提供选择
+
+## Maven 项目生成 jar
+`mvn install`
+
+## TODO
++ 进一步了解 mvn 命令
