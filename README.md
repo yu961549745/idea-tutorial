@@ -56,8 +56,19 @@ View -> Toolbar
 + `alt+enter`
     + 在包重复时提供选择
 
-## Maven 项目生成 jar
-`mvn install`
+## 从源码导入 Module
+File -> New -> Module From Existing Source 
 
-## TODO
-+ 进一步了解 mvn 命令
+## Maven 命令学习
++ `validate` - validate the project is correct and all necessary information is available
++ `compile` - compile the source code of the project
++ `test` - test the compiled source code using a suitable unit testing framework. These tests should not require + the code be packaged or deployed
++ `package` - take the compiled code and package it in its distributable format, such as a JAR.
++ `verify` - run any checks on results of integration tests to ensure quality criteria are met
++ `install` - install the package into the local repository, for use as a dependency in other projects locally
++ `deploy` - done in the build environment, copies the final package to the remote repository for sharing with other developers and projects.
+
+常用命令
++ `mvn clean` 清空
++ `mvn package` 打包 jar
++ `mvn install` 安装到本地仓库
