@@ -55,6 +55,7 @@ View -> Toolbar
 + `cmd+B`/`cmd+鼠标` 前往定义
 + `alt+enter`
     + 在包重复时提供选择
++ `cmd+N` 生成 getter / setter 
 
 ## 从源码导入 Module
 File -> New -> Module From Existing Source 
