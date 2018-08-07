@@ -56,6 +56,7 @@ View -> Toolbar
 + `alt+enter`
     + 在包重复时提供选择
 + `cmd+N` 生成 getter / setter 
++ `cmd+F9` Build 项目
 
 ## 从源码导入 Module
 File -> New -> Module From Existing Source 
@@ -73,3 +74,10 @@ File -> New -> Module From Existing Source
 + `mvn clean` 清空
 + `mvn package` 打包 jar
 + `mvn install` 安装到本地仓库
+
+
+## HotCode2 使用
+1. 开启 IDEA 插件 (安装 阿里巴巴集团开发规约 时已自带)
+2. 运行程序
+3. 修改代码
+4. Build 项目
