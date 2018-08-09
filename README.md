@@ -62,6 +62,12 @@ View -> Toolbar
     + 在包重复时提供选择
 + `cmd+N` 生成 getter / setter 
 + `cmd+F9` Build 项目
++ `cmd+Z` / `cmd+shift+Z` undo / redo
++ `cmd+F` / `cmd+R` Find / Replace
+
+更多
+[mac](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-mac-introduce.md)
+[win](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-introduce.md)
 
 ## 从源码导入 Module
 File -> New -> Module From Existing Source 
