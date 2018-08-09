@@ -22,6 +22,11 @@
 ## 检查默认Java SDK
 Configure -> Project Defaults -> Project Structure
 
+设置 JDK 文档
++ 官网下载 javadoc
++ Configure -> Project Defaults -> Project Structure 
+![javadoc](imgs/javadoc.png)
+
 ## 设置 Maven 
 Configure -> Preference -> Build Tools -> Maven -> Importing
 + 自动更新 Import Maven projects automatically
